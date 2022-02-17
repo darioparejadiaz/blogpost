@@ -1,0 +1,40 @@
+@media (max-height: 510px){
+
+    .home-main section{
+        margin-top: 20px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 504px){
+    .home-main-text{
+        font-size: 26px;
+    }
+
+    .home-main section{
+        height: auto;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 384px){
+    .primary-button{
+        margin-top: 14px;
+    }
+}
+
+@media (max-width: 425px){
+
+    header .header-icons-container{
+        justify-content: center;
+    }
+
+    header .header-icons-container .icons{
+        margin-right: 0;
+    }
+
+    header nav .profile-link{
+        margin-right: 10px;
+    }
+
+}

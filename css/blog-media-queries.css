@@ -1,0 +1,47 @@
+@media (max-width: 900px){
+
+    .contact-container img{
+        width: 80px;
+    }
+}
+
+@media (max-width: 650px){
+
+    .contact-container-center{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info-container{
+        grid-template-columns: 0.2fr 1fr;
+        padding-bottom: 14px;
+    }
+    
+    .write-info-container{
+        grid-template-columns: 0.2fr 1fr;
+        padding-bottom: 14px;
+    }
+
+    .footer-color-2 p{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+@media (max-width: 426px){
+
+    header .header-icons-container{
+        justify-content: center;
+    }
+
+    header .header-icons-container .icons{
+        margin-right: 0;
+    }
+
+    header nav .profile-link{
+        margin-right: 10px;
+    }
+
+    .contact-container{
+        height: auto;
+    }
+}
